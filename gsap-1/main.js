@@ -19,3 +19,5 @@ gsap.to("#box3",{
     borderRadius: "50%",
     scale: 0.5,
 })
+
+// End Box Animation 
