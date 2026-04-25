@@ -32,4 +32,14 @@ body {
   background-color: lightgreen;
 }
 
+.box__1 {
+  height: 300px;
+  width: 300px;
+  background-color: pink;
+}
+
 /* End Box Css */
+
+.text-color-white {
+  color: white;
+}
