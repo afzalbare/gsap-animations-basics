@@ -10,5 +10,7 @@ gsap.from("#page-2 #box-2", {
     duration: 1,
     delay: 1,
     rotate: 360,
+    scrollTrigger: "#page-2 #box-2",
 });
-gsap.from("#page-3 #box-3", {});
+
+// gsap.from("#page-3 #box-3", {});
