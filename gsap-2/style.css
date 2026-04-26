@@ -11,3 +11,47 @@ body {
   width: 100%;
 }
 
+#page-1 {
+  height: 100%;
+  width: 100%;
+  background-color: lightblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#page-2 {
+  height: 100%;
+  width: 100%;
+  background-color: lightgreen;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#page-3 {
+  height: 100%;
+  width: 100%;
+  background-color: lightcoral;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#box-1 {
+  height: 300px;
+  width: 300px;
+  background-color: rgb(255, 0, 51);
+}
+
+#box-2 {
+  height: 300px;
+  width: 300px;
+  background-color: rgb(0, 191, 255);
+}
+
+#box-3 {
+  height: 300px;
+  width: 300px;
+  background-color: rgb(0, 255, 0);
+}
