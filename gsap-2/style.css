@@ -11,6 +11,10 @@ body {
   width: 100%;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 #page-1 {
   height: 100%;
   width: 100%;
@@ -55,6 +59,19 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+#page-4 {
+  height: 100%;
+  width: 100%;
+  background-color: #9ac1cb;
+  padding: 5vw 0;
+}
+
+#page-4 h2 {
+  font-size: 40vw;
+  text-transform: uppercase;
+  font-weight: 600;
 }
 
 #box-1 {

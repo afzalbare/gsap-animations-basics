@@ -55,6 +55,20 @@ gsap.from("#page-3 #box-3", {
     markers: true,
     start: "top 50%",
     end: "top 20%",
-    scrub: 2 ,
+    scrub: 2,
+  },
+});
+// gsap.from("#page-4 #box-4", {});
+
+gsap.to("#page-4 h2", {
+  transform:"translateX(-150%)",
+  scrollTrigger: {
+    trigger: "#page-4",
+    scroller: "body",
+    markers: true,
+    start: "top 0%",
+    end: "top -100%",
+    scrub: 2,
+    pin: true,
   },
 });
