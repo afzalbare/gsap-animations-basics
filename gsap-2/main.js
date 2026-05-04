@@ -43,3 +43,18 @@ gsap.from("#page-2 h3", {
 });
 
 // gsap.from("#page-3 #box-3", {});
+
+gsap.from("#page-3 #box-3", {
+  scale: 0,
+  opacity: 0,
+  rotate: 720,
+  duration: 1,
+  scrollTrigger: {
+    trigger: "#page-3 #box-3",
+    scroller: "body",
+    markers: true,
+    start: "top 50%",
+    end: "top 20%",
+    scrub: 2 ,
+  },
+});
