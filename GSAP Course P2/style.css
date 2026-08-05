@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-family: "Cabin", sans-serif;
+  overflow: hidden;
+}
+
+#main {
+  height: 100%;
+  width: 100%;
+  background-image: url(./nav.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 50px;
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+#nav h1 {
+  cursor: pointer;
+  font-size: 30px;
+  font-weight: 900;
+}
+
+#full {
+  height: 100%;
+  width: 50%;
+  background-color: rgba(255, 255, 255, 0.5);
+  position: absolute;
+  top: 0;
+  right: -50%;
+  backdrop-filter: blur(10px);
+  padding: 150px 60px;
+  /* display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: translateX(-100%); */
+}
+
+#full ul li {
+  list-style: none;
+  font-size: 30px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+#full i {
+  position: absolute;
+  top: 5%;
+  right: 5%;
+  font-weight: 600;
+  font-size: 20px;
+  cursor: pointer;
+  background-color: white;
+  padding: 8px;
+  border-radius: 999px;
+  color: black;
+}
+
+#nav i{
+  cursor: pointer;
+  font-size: 30px;
+}
